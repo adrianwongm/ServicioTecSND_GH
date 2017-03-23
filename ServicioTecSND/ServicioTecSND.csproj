@@ -77,6 +77,12 @@
     <Compile Include="frmOrdenServicio.Designer.cs">
       <DependentUpon>frmOrdenServicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfilesUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfilesUsuario.Designer.cs">
+      <DependentUpon>frmPerfilesUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
