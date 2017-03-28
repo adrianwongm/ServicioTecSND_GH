@@ -1,0 +1,5 @@
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND\bin\Debug\ConexionServicioTecSND.dll
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND\bin\Debug\ConexionServicioTecSND.pdb
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND\obj\Debug\ConexionServicioTecSND.dll
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND\obj\Debug\ConexionServicioTecSND.pdb
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND\obj\Debug\ConexionServicioTecSND.csprojResolveAssemblyReference.cache
