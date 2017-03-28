@@ -33,6 +33,7 @@ namespace ServicioTecSND
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmUsuario frm = new frmUsuario();
+            frm.MdiParent = this;
             frm.Show();
         }
     }
