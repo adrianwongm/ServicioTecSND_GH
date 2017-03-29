@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioTecSND", "ServicioTecSND\ServicioTecSND.csproj", "{3FEC448C-32D6-4099-A9BC-9DCB78578EE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionServicioTecSND", "ConexionServicioTecSND\ConexionServicioTecSND.csproj", "{8705F5CD-EEFE-4AA5-BF9C-E5728AD735B2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ServicioTecSND_vb", "ServicioTecSND_vb\ServicioTecSND_vb.vbproj", "{26EBC3F5-45BB-419C-A1D6-582B7964BFA3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConexionServicioTecSND_vb", "ConexionServicioTecSND_vb\ConexionServicioTecSND_vb.vbproj", "{485E1E2B-E2FC-4EE3-B053-B50A291419A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{8705F5CD-EEFE-4AA5-BF9C-E5728AD735B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8705F5CD-EEFE-4AA5-BF9C-E5728AD735B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8705F5CD-EEFE-4AA5-BF9C-E5728AD735B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EBC3F5-45BB-419C-A1D6-582B7964BFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EBC3F5-45BB-419C-A1D6-582B7964BFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EBC3F5-45BB-419C-A1D6-582B7964BFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EBC3F5-45BB-419C-A1D6-582B7964BFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485E1E2B-E2FC-4EE3-B053-B50A291419A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485E1E2B-E2FC-4EE3-B053-B50A291419A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485E1E2B-E2FC-4EE3-B053-B50A291419A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485E1E2B-E2FC-4EE3-B053-B50A291419A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

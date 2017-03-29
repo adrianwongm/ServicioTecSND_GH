@@ -40,5 +40,10 @@ namespace ServicioTecSND
             frmPrincipal form = new frmPrincipal();
             form.Show();
         }
+
+        private void pictureEdit2_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
