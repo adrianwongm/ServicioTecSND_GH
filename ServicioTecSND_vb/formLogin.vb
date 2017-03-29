@@ -1,4 +1,5 @@
 ﻿
+Imports ConexionServicioTecSND_vb
 
 Public Class formLogin
     Private Sub PictureEdit1_EditValueChanged(sender As Object, e As EventArgs) Handles PictureEdit1.EditValueChanged
@@ -11,9 +12,14 @@ Public Class formLogin
 
     Private Sub btnIngresar_Click(sender As Object, e As EventArgs) Handles btnIngresar.Click
         Try
+            Dim oUser As New UsuarioExtend
+            If (oUser.verificaUsuario(Me.txtLogin.Text, Me.txtPassword.Text)) Then
+                Dim form As New frmPrincipal()
+                form.Show()
+            Else
+                MessageBox.Show(oUser.Mensaje)
+            End If
 
-            Dim form As New frmPrincipal()
-            form.Show()
         Catch ex As Exception
 
         End Try

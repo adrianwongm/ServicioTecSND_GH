@@ -54,5 +54,10 @@ namespace ServicioTecSND
         {
 
         }
+
+        private void frmUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
