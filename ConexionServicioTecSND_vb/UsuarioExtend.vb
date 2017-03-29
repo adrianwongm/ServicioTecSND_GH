@@ -46,7 +46,8 @@ Public Class UsuarioExtend
                 cmd.CommandText = sqlStatement
             End If
             '.ExecuteReader()        'Forward only Dataset
-
+            cmd.Parameters.Add("@Usuario", SqlDbType.VarChar).Value = pUsuario
+            cmd.Parameters.Add("@Password", SqlDbType.VarChar).Value = pPassword
             '   Create a data adapter to store the inforamtion
             adp = New System.Data.SqlClient.SqlDataAdapter()
             dset = New DataSet()

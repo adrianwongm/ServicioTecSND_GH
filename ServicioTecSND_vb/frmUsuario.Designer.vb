@@ -39,6 +39,7 @@ Partial Class frmUsuario
         Me.textEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.textEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.textEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.chkAdministrador = New DevExpress.XtraEditors.CheckEdit()
         CType(Me.grdUsuarios, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.groupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,6 +49,7 @@ Partial Class frmUsuario
         CType(Me.textEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.textEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.textEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.chkAdministrador.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'grdUsuarios
@@ -149,7 +151,7 @@ Partial Class frmUsuario
         Me.groupControl1.Controls.Add(Me.simpleButton1)
         Me.groupControl1.Controls.Add(Me.simpleButton3)
         Me.groupControl1.Controls.Add(Me.simpleButton2)
-        Me.groupControl1.Location = New System.Drawing.Point(311, 120)
+        Me.groupControl1.Location = New System.Drawing.Point(311, 147)
         Me.groupControl1.Name = "groupControl1"
         Me.groupControl1.Size = New System.Drawing.Size(398, 78)
         Me.groupControl1.TabIndex = 21
@@ -216,11 +218,20 @@ Partial Class frmUsuario
         Me.textEdit1.Size = New System.Drawing.Size(155, 20)
         Me.textEdit1.TabIndex = 16
         '
+        'chkAdministrador
+        '
+        Me.chkAdministrador.Location = New System.Drawing.Point(311, 118)
+        Me.chkAdministrador.Name = "chkAdministrador"
+        Me.chkAdministrador.Properties.Caption = " Es Administrador"
+        Me.chkAdministrador.Size = New System.Drawing.Size(144, 19)
+        Me.chkAdministrador.TabIndex = 29
+        '
         'frmUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(721, 467)
+        Me.Controls.Add(Me.chkAdministrador)
         Me.Controls.Add(Me.labelControl5)
         Me.Controls.Add(Me.labelControl4)
         Me.Controls.Add(Me.labelControl3)
@@ -244,6 +255,7 @@ Partial Class frmUsuario
         CType(Me.textEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.textEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.textEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.chkAdministrador.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -269,4 +281,5 @@ Partial Class frmUsuario
     Private WithEvents textEdit3 As DevExpress.XtraEditors.TextEdit
     Private WithEvents textEdit2 As DevExpress.XtraEditors.TextEdit
     Private WithEvents textEdit1 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents chkAdministrador As DevExpress.XtraEditors.CheckEdit
 End Class

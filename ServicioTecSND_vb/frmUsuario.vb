@@ -20,6 +20,11 @@ Public Class frmUsuario
 
         Dim con As New UsuarioExtend()
         Me.grdUsuarios.DataSource = con.getListadoUsuario().Tables(0)
+        cargaComboEmpleados()
+    End Sub
+
+    Private Sub cargaComboEmpleados()
+        Throw New NotImplementedException()
     End Sub
 
     Private Sub grdUsuarios_DoubleClick(sender As Object, e As EventArgs) Handles grdUsuarios.DoubleClick
@@ -38,4 +43,10 @@ Public Class frmUsuario
         End If
     End Sub
 
+    Private Sub simpleButton2_Click(sender As Object, e As EventArgs) Handles simpleButton2.Click
+        Dim grd As DevExpress.XtraGrid.GridControl = DirectCast(Me.grdUsuarios, DevExpress.XtraGrid.GridControl)
+        Dim view As GridView = DirectCast(grd.Views(0), GridView)
+        view.FocusedRowHandle = -1
+        view.OptionsView.ShowIndicator = False
+    End Sub
 End Class

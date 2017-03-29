@@ -1,0 +1,9 @@
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\bin\Debug\ConexionServicioTecSND_vb.dll
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\bin\Debug\ConexionServicioTecSND_vb.pdb
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\bin\Debug\ConexionServicioTecSND_vb.xml
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.vbprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.Resources.resources
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.vbproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.dll
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.xml
+C:\Users\user\documents\visual studio 2017\Projects\ServicioTecSND\ConexionServicioTecSND_vb\obj\Debug\ConexionServicioTecSND_vb.pdb
