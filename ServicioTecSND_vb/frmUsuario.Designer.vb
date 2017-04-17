@@ -35,7 +35,7 @@ Partial Class frmUsuario
         Me.simpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.simpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.checkEdit1 = New DevExpress.XtraEditors.CheckEdit()
-        Me.comboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.cmbEmpleados = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.textEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.textEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.textEdit1 = New DevExpress.XtraEditors.TextEdit()
@@ -45,7 +45,7 @@ Partial Class frmUsuario
         CType(Me.groupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.groupControl1.SuspendLayout()
         CType(Me.checkEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.comboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbEmpleados.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.textEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.textEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.textEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -189,13 +189,13 @@ Partial Class frmUsuario
         Me.checkEdit1.Size = New System.Drawing.Size(75, 19)
         Me.checkEdit1.TabIndex = 20
         '
-        'comboBoxEdit1
+        'cmbEmpleados
         '
-        Me.comboBoxEdit1.Location = New System.Drawing.Point(399, 31)
-        Me.comboBoxEdit1.Name = "comboBoxEdit1"
-        Me.comboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.comboBoxEdit1.Size = New System.Drawing.Size(182, 20)
-        Me.comboBoxEdit1.TabIndex = 19
+        Me.cmbEmpleados.Location = New System.Drawing.Point(399, 31)
+        Me.cmbEmpleados.Name = "cmbEmpleados"
+        Me.cmbEmpleados.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbEmpleados.Size = New System.Drawing.Size(182, 20)
+        Me.cmbEmpleados.TabIndex = 19
         '
         'textEdit3
         '
@@ -239,7 +239,7 @@ Partial Class frmUsuario
         Me.Controls.Add(Me.labelControl1)
         Me.Controls.Add(Me.groupControl1)
         Me.Controls.Add(Me.checkEdit1)
-        Me.Controls.Add(Me.comboBoxEdit1)
+        Me.Controls.Add(Me.cmbEmpleados)
         Me.Controls.Add(Me.textEdit3)
         Me.Controls.Add(Me.textEdit2)
         Me.Controls.Add(Me.textEdit1)
@@ -251,7 +251,7 @@ Partial Class frmUsuario
         CType(Me.groupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.groupControl1.ResumeLayout(False)
         CType(Me.checkEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.comboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbEmpleados.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.textEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.textEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.textEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -277,7 +277,7 @@ Partial Class frmUsuario
     Private WithEvents simpleButton3 As DevExpress.XtraEditors.SimpleButton
     Private WithEvents simpleButton2 As DevExpress.XtraEditors.SimpleButton
     Private WithEvents checkEdit1 As DevExpress.XtraEditors.CheckEdit
-    Private WithEvents comboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Private WithEvents cmbEmpleados As DevExpress.XtraEditors.ComboBoxEdit
     Private WithEvents textEdit3 As DevExpress.XtraEditors.TextEdit
     Private WithEvents textEdit2 As DevExpress.XtraEditors.TextEdit
     Private WithEvents textEdit1 As DevExpress.XtraEditors.TextEdit
